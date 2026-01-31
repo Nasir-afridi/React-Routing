@@ -1,13 +1,12 @@
-import { Route, Routes, Link } from "react-router";
+import { Route, Routes } from "react-router";
 import Home from "./Home";
 import About from "./About";
+import Links from "./Links";
 
 function App() {
   return (
     <>
-      <Link to="/">Home</Link><br />
-      <Link to="/about">About</Link>
-
+    <Links />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
