@@ -1,0 +1,16 @@
+.header {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.li-links {
+  display: flex;
+  gap: 70px;
+  list-style-type: none;
+  font-size: large;
+}
+
+.link {
+  text-decoration: none;
+}
