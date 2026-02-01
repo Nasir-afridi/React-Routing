@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import Services from "./Services";
 import Navbar from "./Navbar";
+import PageNotFound from "./PageNotFound";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />}/>
-        <Route path="/*" element={<h1>page not found</h1>}/>
+        <Route path="/*" element={<PageNotFound />}/>
       </Routes>
     </>
   );
