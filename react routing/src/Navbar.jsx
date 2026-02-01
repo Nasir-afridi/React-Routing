@@ -25,6 +25,11 @@ const Links = () => {
               Services
             </Link>
           </li>
+          <li>
+            <Link to="/college" className="link">
+              College
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
