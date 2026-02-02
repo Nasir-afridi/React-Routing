@@ -25,6 +25,11 @@ function App() {
           <Route path="department" element={<Department />} />
         </Route>
 
+        <Route path="user">
+          <Route path="/user/services" element={<Services />}></Route>
+          <Route path="/user/about" element={<About />}></Route>
+        </Route>
+
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </>
