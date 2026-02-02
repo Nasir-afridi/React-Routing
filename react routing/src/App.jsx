@@ -8,6 +8,7 @@ import Student from "./Student";
 import PageNotFound from "./PageNotFound";
 import Details from "./Details";
 import Department from "./Department";
+import Users from "./Users";
 
 function App() {
   return (
@@ -26,10 +27,11 @@ function App() {
         </Route>
 
         <Route path="user">
-          <Route path="/user/services" element={<Services />}></Route>
-          <Route path="/user/about" element={<About />}></Route>
+          <Route path="/user/services" element={<Services />} />
+          <Route path="/user/about" element={<About />} />
         </Route>
 
+          <Route path="/Users" element={<Users />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </>
